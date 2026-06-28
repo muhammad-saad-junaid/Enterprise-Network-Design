@@ -9,6 +9,11 @@ Designed and implemented a full enterprise network for a 3-site company (Head Of
 
 ---
 
+## 🎥 Demo
+[▶ Watch Network Demo on YouTube](https://youtu.be/9C7J7qDDQBM)
+
+---
+
 ## 🏢 Network Topology
 - **Head Office** — Server Farm (DHCP, DNS, HTTP servers)
 - **Branch A** — Connected via WAN serial links
@@ -35,6 +40,15 @@ Designed and implemented a full enterprise network for a 3-site company (Head Of
 | Routing Protocol | OSPF (Area 0) |
 | IP Addressing | VLSM |
 | Switching | VTP v2, Port Security |
+| Security | Extended ACLs |
+
+---
+
+## ✅ Testing & Verification
+- Successful cross-site pings (Branch A/B → Head Office Server Farm)
+- HTTP server accessible via web browser from branch PCs
+- DHCP leases verified on all branch PCs
+- ACL rules verified — guest traffic blocked from server farm
 
 ---
 
